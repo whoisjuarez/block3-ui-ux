@@ -1,0 +1,172 @@
+/* GENERAL STYLE*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: black;
+  font-family: 'Montserrat', sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  color: white;
+  padding: 2rem 8rem 2rem 2rem;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 5vw, 3rem);
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+h2{
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+p, li { 
+  font-size: 1.5rem;
+  line-height: 1.5; 
+}
+
+p{ margin-bottom: 1.5rem; }
+
+figcaption {
+  font-size: 1rem;
+  color: #777;
+  margin: .5rem 0 2rem;
+}
+
+img { width: 100%; }
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 3rem;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: .8rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 1.5rem;
+  vertical-align: top;
+}
+
+th {  background-color: #f2f2f2; }
+
+td{ word-break: break-word; }
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+}
+
+ul li, ol li { margin-bottom: 1rem; }
+
+/* SPECIFIC STYLES */
+/* BUTTON */
+.btn1, .btn2, .btn3,
+.btn4, .btn5 { height: calc(65vh / 5); }
+
+.btn1 { background-color: #FFF700; }
+
+.btn2 { background-color: #e6de00; }
+
+.btn3 { background-color: #ccc600; }
+
+.btn4 { background-color: #b3ad00; }
+
+.btn5 { background-color: #999400; }
+
+/* ACCORDION */
+.accordion {
+  color: #000;
+  cursor: pointer;
+  padding: 2rem;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.5s;
+  font-weight: 900;
+  font-size: clamp(1.3rem, 5vw, 2rem);
+  text-transform: uppercase;
+}
+
+.accordion:after {
+  content: '\02795';
+  font-size: 1.5rem;
+  float: right;
+}
+
+.active:after { content: "\2796"; }
+
+.active, .accordion:hover { background-color: #fffb80; }
+
+.panel {
+  background-color: white;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.25s ease-in-out;
+  margin: 0 auto;
+  padding: 0 2rem;
+  width: 100%;
+}
+
+.container { padding: 2rem 0; }
+
+.sign-example {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.sign-example img{
+  width: 100%;
+  height: auto;
+}
+
+/* PERSONAS */
+.persona-grid {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  gap: 1.5rem;
+}
+
+.persona-photo {
+  width: 400px;
+  height: auto;
+}
+
+.final-design { width: 70%; }
+
+/* MEDIA QUERIES */
+@media (max-width: 480px) {
+  header { padding-right: 2rem; }
+
+  h2{ font-size: 1.2rem; }
+  
+  p, li{ font-size: 1.2rem;}
+
+  th, td{ font-size: 1.2rem; }
+
+  figcaption { margin-bottom: 1rem; }
+
+  .sign-example { grid-template-columns: 1fr; }
+
+  .final-design { width: 100%; }
+
+  .persona-grid { 
+    grid-template-columns: 1fr; 
+    gap: 0;
+  }
+
+  .persona-photo { width: 100%; }
+}

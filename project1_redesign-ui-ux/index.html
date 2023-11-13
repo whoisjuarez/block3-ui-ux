@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 01 - Sasha + André(s)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Case Study: UI/UX redesign of a parking sign in the surroundings of Vanier College</h1>
+    <h2>Aleksandra Petrukova, André Cardoso, Andrés Hamburger</h2>
+    <h2>Applied UI/UX Design, web design MEQ-2</h2>
+  </header>
+
+  <main>
+    <!-- INTRODUCTION -->
+    <section>
+      <button class="accordion btn1">Introduction</button>
+
+      <div class="panel">
+        <article class="container">
+          <p>
+            Parking in Montreal is a bit like a secret code, hard to decipher even for locals. The signs that tell drivers where they can and cannot park are so complicated that even experienced drivers struggle to read them. These signs are full of information about parking rules during different times of the day or week, different seasons (summer and winter), and reserved areas for residents. All this information can be hard to understand, leading to confusion and even parking violations.
+          </p>
+
+          <div class="sign-example">
+            <img src="assets/img/MtlParking1.jpg" alt="Example of a parking sign in Montreal">
+            <img src="assets/img/MtlParking2.jpg" alt="Example of a parking sign in Montreal">
+            <img src="assets/img/MtlParking3.jpg" alt="Example of a parking sign in Montreal">
+          </div>
+
+          <figcaption>Example of a standard parking sign in Montreal.</figcaption>
+        </article>
+      </div>
+    </section>
+
+    <!-- ANALYSIS OF EXISTING UI/UX -->
+    <section>
+      <button class="accordion btn2">Analysis of Existing UX</button>
+      
+      <div class="panel">
+        <article class="container">
+          <figure>
+            <img src="assets/img/UI-UX_redesign_Analysis.jpg" alt="" class="analysis">
+            <figcaption>Dissecting a Parking Sign in the surroundings of Vanier College.</figcaption>
+          </figure>
+
+          <p>
+            Montreal struggles with the challenge of communicating parking regulations effectively through signage. In many areas of the city, parking signs exhibit design flaws that can lead to confusion and frustration for residents and visitors alike. Let's analyze some of the common bad design elements found in Montreal parking signs.
+          </p>
+
+          <ol>
+            <li>
+              <strong>Confusing and cluttered layout:</strong>
+              Many Montreal parking signs have complex and wordy messages. Additionally, the signs have repetitive content and tend to cram too much information into a limited space, making it difficult for drivers to quickly understand the parking regulations in a particular area.
+            </li>
+            <li>
+              <strong>Ambiguous Time frames:</strong>
+              Some parking signs fail to specify the exact hours and days when parking regulations are in effect. Ambiguity in terms of parking time frames can lead to parking violations and unnecessary stress for drivers. Clear and consistent information about when parking restrictions apply should be a priority in sign design.
+            </li>
+            <li>
+              <strong>Lack of Visual Hierarchy:</strong>
+              Effective design relies on establishing a clear visual hierarchy, with the most important information being the most prominent. In many Montreal parking signs, the critical details, such as parking hours and permitted days, are not highlighted effectively. This can result in drivers overlooking essential information.
+            </li>
+            <li>
+              <strong>Lack of user-friendliness:</strong>
+              Parking signs often rely heavily on text to convey information. Incorporating more universally understood graphic elements could help convey rules quickly and effectively to a broader audience, especially tourists  and non-native speakers.
+            </li>
+            <li>
+              <strong>Inadequate Signage symbols:</strong>
+              The lack of symbol standardization on park signs transforms navigation into a puzzle rather than a seamless experience. Symbols meant to convey simple messages, such as the sign allowing to park and not park diverge in design, leaving visitors deciphering an inconsistent lexicon. The absence of a unified symbol standardization leaves users dealing with an unintentional maze of visual information, decreasing the very purpose of effortlessly guide and enhance the park experience.
+            </li>
+          </ol>
+        </article>
+      </div>
+    </section>
+
+    <!-- PERSONAS -->
+    <section>
+      <button class="accordion btn3">Personas</button>
+      
+      <article class="panel">
+        <div class="container">
+          <article class="persona-grid">
+            <figure>
+              <img src="assets/img/persona3.png" alt="" class="persona-photo">
+              <figcaption>Gaetan, 75 y/o, a retired Montreal resident who has been driving for decades.</figcaption>
+            </figure>
+
+            <!-- PERSONA 1 -->
+            <table>
+              <tr>
+                <th>Persona</th>
+                <td>Elderly Driver with Poor Eyesight</td>
+              </tr>
+              <tr>
+                <th>Name</th>
+                <td>Gaetan</td>
+              </tr>
+              <tr>
+                <th>Age</th>
+                <td>75</td>
+              </tr>
+              <tr>
+                <th>Background</th>
+                <td>A retired Montreal resident who has been driving for decades.</td>
+              </tr>
+              <tr>
+                <th>Challenges</th>
+                <td>
+                  <ul>
+                    <li>Poor eyesight, making it difficult to see small details and read small fonts.</li>
+                    <li>Struggles with understanding complex signage due to aging.</li>
+                    <li>May have trouble comprehending new symbols or formats.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <th>Goals and Needs</th>
+                <td>
+                  <ul>
+                    <li>Clear and easily readable parking signs.</li>
+                    <li>Simple and intuitive design that doesn't rely on intricate symbols.</li>
+                    <li>Easy-to-understand instructions and clear indications of parking regulations.</li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          </article>
+
+          <!-- PERSONA 2 -->
+          <article class="persona-grid">
+            <figure>
+              <img src="assets/img/persona1.png" alt="" class="persona-photo">
+              <figcaption>Maria, 18 y/o, a Novice Driver with Limited Sign Knowledge.</figcaption>
+            </figure>
+            <table>
+              <tr>
+                <th>Persona</th>
+                <td>Novice Driver with Limited Sign Knowledge</td>
+              </tr>
+              <tr>
+                <th>Name</th>
+                <td>Maria</td>
+              </tr>
+              <tr>
+                <th>Age</th>
+                <td>18</td>
+              </tr>
+              <tr>
+                <th>Background</th>
+                <td>Recently obtained her driver's license and is still learning the rules of the road.</td>
+              </tr>
+              <tr>
+                <th>Challenges</th>
+                <td>
+                  <ul>
+                    <li>Limited experience in interpreting parking signs.</li>
+                    <li>May feel overwhelmed by the variety of signs and regulations.</li>
+                    <li>Could benefit from user-friendly and informative signage.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <th>Goals and Needs</th>
+                <td>
+                  <ul>
+                    <li>Easily comprehensible parking signs with clear symbols and language.</li>
+                    <li>Educational elements to help her learn and remember parking regulations.</li>
+                    <li>Guidance on common parking scenarios and how to avoid fines.</li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          </article>
+
+          <!-- PERSONA 3 -->
+          <article class="persona-grid">
+            <figure>
+              <img src="assets/img/persona2.png" alt="" class="persona-photo">
+              <figcaption>Diego, 30 y/o, a foreigner with Limited French Proficiency.</figcaption>
+            </figure>
+            <table>
+              <tr>
+                <th>Persona</th>
+                <td>Foreigner with Limited French Proficiency</td>
+              </tr>
+              <tr>
+                <th>Name</th>
+                <td>Diego</td>
+              </tr>
+              <tr>
+                <th>Age</th>
+                <td>30</td>
+              </tr>
+              <tr>
+                <th>Background</th>
+                <td>A newcomer to Montreal with limited knowledge of the French language.</td>
+              </tr>
+              <tr>
+                <th>Challenges</th>
+                <td>
+                  <ul>
+                    <li>May not understand the French language, which is predominantly used on parking signs.</li>
+                    <li>Struggles with deciphering unfamiliar symbols or international signage.</li>
+                    <li>At risk of receiving fines due to language and cultural barriers.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <th>Goals and Needs</th>
+                <td>
+                  <ul>
+                    <li>Parking signs with internationally recognized symbols.</li>
+                    <li>Clarity in design that transcends language barriers.</li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          </article>
+        </div>
+      </article>
+      </div>
+    </section>
+
+    <section>
+      <button class="accordion btn4">Improvement Plan and Design</button>
+      <article class="panel">
+        <div class="container">
+          <figure>
+            <img src="assets/img/UI-UX_redesign_Improvement.jpg" alt="" class="sketch">
+            <figcaption>Improvement Design Sketch</figcaption>
+          </figure>
+          <ol>
+            <li>
+              Design a user-centred approach that meets drivers simple desire to know if they can park in a given
+              location.
+            </li>
+            <li>
+              Simplify the message, standardize symbols, improve visibility, and incorporate user-friendly visual
+              elements.
+            </li>
+            <li>
+              Use of visual cues instead of only text like in the actual version.
+            </li>
+            <li>
+              Include green to indicate parking availability and red to indicate no parking.
+            </li>
+            <li>
+              Accommodate color blindness by incorporating stripes to indicate no parking.
+            </li>
+          </ol>
+          <figure>
+            <img src="assets/img/UI-UX_redesign_Outlines.svg" alt="" class="final-design">
+            <figcaption>Final Design</figcaption>
+          </figure>
+        </div>
+      </article>
+    </section>
+
+    <footer>
+      <button class="accordion btn5">Conclusion</button>
+      <article class="panel">
+        <div class="container">
+          <p>
+            The parking signs in Montreal are a problem because they're too complicated. Drivers often get confused and end  up breaking the rules.
+          </p>
+            
+          <p>
+            One way to fix this problem is to make the signs simpler and easier to understand. In our new design, we suggested a color-coded system. Green blocks mean you can park, and red-striped blocks mean you cannot, easy to understand even for those who do not speak the language or have trouble with eyesight.
+          </p>
+
+          <p>
+            In conclusion, while the parking signs in Montreal provide important information, they're too confusing. It's important to fix this problem to make it easier for drivers to understand the rules and avoid getting tickets.
+          </p>
+        </div>
+      </article>
+    </footer>
+  </main>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
