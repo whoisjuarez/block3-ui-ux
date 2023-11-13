@@ -1,5 +1,5 @@
 # block3-ui-ux
-Applied UI/UX Design files
+### Applied UI/UX Design files
 
-##Projects
-###Project 1 - Redesign UI/UX
+## Projects
+Project 1 - Redesign UI/UX
